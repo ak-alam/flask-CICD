@@ -6,4 +6,5 @@ git checkout main
 date >> trigger
 git add .
 git commit -m "flask-cicd-build"
+git remote set-url origin git@github.com:akbar-alam/flask-CICD.git
 GIT_SSH_COMMAND="ssh -i id_rsa_flask.pem" git push origin main
