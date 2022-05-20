@@ -7,7 +7,7 @@ def welcome():
     return "Flask Server Running"
     
 @app.route('/hello', methods=['GET', 'POST'])
-def welcome():
+def hello_world():
     return "Hello World!!"
 
 if __name__ == '__main__':
